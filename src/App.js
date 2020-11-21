@@ -1,3 +1,6 @@
+import 'devextreme/dist/css/dx.common.css';
+import 'devextreme/dist/css/dx.light.css';
+import Calendar from 'devextreme-react/calendar';
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -121,6 +124,11 @@ function App() {
 				</div>
 			</div>
       </div>
+
+	  <Calendar
+            id="calendar-container"
+           />
+
 		</div>
 	);
 }
